@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gilroy';
+}
+
+*::selection{
+    color: #fff;
+    background-color: black;
+}
+
+html, body{
+    height: 100%;
+    width: 100%;
+}
+
+#page1{
+    padding-top: 18vh;
+    min-height: 100vh;
+    position: relative;
+    width: 100%;
+}
+
+#page1 h1{
+    font-size: 10vw;
+    text-transform: uppercase;
+    font-family: "Futura-Bold";
+    line-height: 8vw;
+}
+
+#video-container{
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    background-color: grey;
+    margin-top: 1vw;
+}
+
+#video-container video{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+#video-container #play{
+    padding: 3vw 2.2vw;
+    background-color: black;
+    color: #fff;
+    font-size: 1.2vw;
+    position: fixed;
+    text-transform: uppercase;
+    font-family: "Futura-Bold";
+    border-radius: 50%;
+    opacity: 0;
+    scale: 0;
+}
