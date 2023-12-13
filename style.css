@@ -16,6 +16,15 @@ html, body{
     background-color: #f7f7f7;
 }
 
+#cursor {
+    height: 180px;
+    width: 180px;
+    background-color: rgba(224, 139, 189, 0.814);
+    border-radius: 50%;
+    position: fixed;
+    transform: translate(-50%, -50%) scale(0);
+
+}
 #page1{
     padding-top: 18vh;
     min-height: 100vh;
